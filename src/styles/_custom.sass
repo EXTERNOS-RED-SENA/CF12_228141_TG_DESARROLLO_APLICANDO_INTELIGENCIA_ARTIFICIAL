@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 40%
 
 
 @keyframes float1
@@ -17,6 +22,68 @@
 
   100%
     transform: translateY(0px)
-
+.banner-principal__img 
+  padding-bottom: 0 !important;
 .banner-principal__row .banner-principal__img
   width: 400px !important 
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/intro/1.png") !important
+    background-position: center
+
+.bg-color
+  &-1
+    background-color: #EEF4F4 !important
+  &-2
+    background-color: #DED5DB !important
+    border-radius: 7px
+  &-3
+    background-color: #E6F0FC !important
+  &-4
+    background-color: #DFE9EA !important
+    border-radius: 9px
+  &-5
+    background-color: #CFF8DE !important
+    border-radius: 14px
+  &-6
+    background-color: #CFE1FA !important
+    border-radius: 14px
+  &-7
+    background-color: #fff !important
+    border-radius: 5px
+  &-8
+    background-color: #CFE1FA !important
+    border-radius: 5px
+  &-9
+    background-color: #EEF4F4 !important
+    border-radius: 7px
+  &-10
+    background-color: #DED5DB !important
+  &-11
+    background-color: #E6FBEE !important
+    border-radius: 7px
+.lista-ul--color.color-primario li > i:first-of-type
+  color: $color-primario !important
+
+.titulo-tres
+  display: inline-block
+  background-color: $color-acento-contenido
+  padding: .5rem
+  margin-bottom: 2rem
+  h3
+    margin: 0 2rem
+
+.tarjeta--azul
+  background-color: #CFE1FA
+.acordion__activo
+  background-color: #CFF8DE
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.bg-slyder
+  background-image: url(../assets/curso/temas/bg-slyder.png)
+  background-position: 0 0
+  background-repeat: no-repeat
+  background-size: cover
+.mn
+  margin: 0 -3rem
