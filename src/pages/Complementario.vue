@@ -60,17 +60,17 @@ export default {
       return [
         {
           tema:
-            '1. Introducción a la evaluación de modelos de machine learning',
+            '1. Introducción a la evaluación de modelos de <em>machine learning</em>',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, septiembre 15). Introducción al Machine learning.',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023, septiembre 15). Introducción al <em>Machine learning</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=wafh7O-vSQoI',
         },
         {
           tema:
-            '1. Introducción a la evaluación de modelos de machine learning',
+            '1. Introducción a la evaluación de modelos de <em>machine learning</em>',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2020, 13 septiembre). ¿Qué es Machine learning?',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2020, 13 septiembre). ¿Qué es <em>Machine learning</em>?',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=BweKKn_PKbE',
         },
@@ -93,14 +93,14 @@ export default {
         {
           tema: '3. Métricas avanzadas de evaluación y ajuste de modelos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, octubre 10). Machine learning con Python.',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, octubre 10). <em>Machine learning</em> con Python.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=wafh7O-elPSIA',
         },
         {
           tema: '3. Métricas avanzadas de evaluación y ajuste de modelos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, marzo 17). Optimización de datos previo a la creación de modelos de machine learning.',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, marzo 17). Optimización de datos previo a la creación de modelos de <em>machine learning</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=tKeCxw_PCVU',
         },

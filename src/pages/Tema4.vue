@@ -7,13 +7,13 @@
         span 4
       h1 Comunicación y documentación de resultados
     .bg-color-9.p-4.mb-5
-      p.mb-0 En el ámbito de la inteligencia artificial y el machine learning, no es suficiente con desarrollar modelos precisos y robustos; es también clave comunicar eficazmente los hallazgos y resultados obtenidos. La capacidad para presentar información técnica de manera clara y accesible es esencial para que las partes interesadas comprendan el valor y las implicaciones de los modelos desarrollados. En este capítulo, exploraremos las mejores prácticas para la comunicación y documentación de resultados, incluyendo el arte del storytelling en ciencia de datos, la elaboración de informes técnicos, el desarrollo de manuales técnicos y la socialización y presentación de resultados.
+      p.mb-0 En el ámbito de la inteligencia artificial y el #[em machine learning], no es suficiente con desarrollar modelos precisos y robustos; es también clave comunicar eficazmente los hallazgos y resultados obtenidos. La capacidad para presentar información técnica de manera clara y accesible es esencial para que las partes interesadas comprendan el valor y las implicaciones de los modelos desarrollados. En este capítulo, exploraremos las mejores prácticas para la comunicación y documentación de resultados, incluyendo el arte del #[em storytelling] en ciencia de datos, la elaboración de informes técnicos, el desarrollo de manuales técnicos y la socialización y presentación de resultados.
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.1 El arte del #[i storytelling] en ciencia de datos
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
-          p.mb-3 El #[i storytelling], o narración de historias, es una técnica poderosa que permite transmitir información compleja de manera comprensible y atractiva. En ciencia de datos, el storytelling ayuda a contextualizar los análisis y resultados, conectándolos con las necesidades y objetivos del negocio o proyecto.
+          p.mb-3 El #[i storytelling], o narración de historias, es una técnica poderosa que permite transmitir información compleja de manera comprensible y atractiva. En ciencia de datos, el #[em storytelling] ayuda a contextualizar los análisis y resultados, conectándolos con las necesidades y objetivos del negocio o proyecto.
           .tarjeta.bg-color-6.p-3
               p.mb-3 Una buena historia en ciencia de datos debe tener una estructura clara, que generalmente incluye:
               ul.lista-ul--color.color-primario.mb-0
@@ -34,12 +34,12 @@
                   p.mb-0 #[b Conclusión:] recomendaciones y pasos a seguir.
       .col-sm-12.col-lg-4.d-none.d-lg-block: img(src='@/assets/curso/temas/t4/1.svg')
     p.mb-3 Por ejemplo, al presentar un modelo de predicción de abandono de clientes, podríamos comenzar describiendo el impacto que el abandono tiene en la empresa, cómo se abordó el problema mediante el análisis de datos y qué resultados clave se obtuvieron. Al final, se ofrecerían recomendaciones basadas en los hallazgos para retener a los clientes.
-    p.mb-5 El uso de visualizaciones es fundamental en el storytelling, ya que facilita la comprensión de datos complejos. Gráficos, diagramas y tablas ayudan a ilustrar tendencias, patrones y relaciones que respaldan la narrativa.
+    p.mb-5 El uso de visualizaciones es fundamental en el #[em storytelling], ya que facilita la comprensión de datos complejos. Gráficos, diagramas y tablas ayudan a ilustrar tendencias, patrones y relaciones que respaldan la narrativa.
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2.
-          span  El arte de storytelling
+          span  El arte de #[em storytelling]
         img(src='@/assets/curso/temas/t4/2.svg', alt='La Figura 2 se denomina «El arte del storytelling». Ilustra el proceso de storytelling con datos en cuatro etapas conectadas secuencialmente: comienza con los Datos (análisis inicial), seguido del Contexto (negocio/audiencia), continúa con la Narrativa (historia coherente) y culmina en el Impacto (acción/decisión). En la parte inferior se muestran los elementos de soporte: visualizaciones, métricas clave y hallazgos principales.')
         figcaption Fuente: OIT, 2024.
     
@@ -186,7 +186,7 @@
               p.mb-0 Además, es recomendable practicar la presentación con anticipación y considerar el uso de herramientas interactivas o demostraciones en vivo para hacer la sesión más dinámica.
     
     .titulo-tres: h3.mb-0 Conclusiones
-    p.mb-0 La comunicación y documentación de resultados son componentes esenciales en cualquier proyecto de inteligencia artificial y machine learning. A través del storytelling, podemos conectar los hallazgos técnicos con narrativas que resuenen con las necesidades y objetivos de las partes interesadas. Los informes técnicos y manuales proporcionan documentación detallada y estructurada que respalda la reproducibilidad y el mantenimiento del trabajo realizado. Finalmente, la socialización efectiva de los resultados asegura que el valor generado por los modelos desarrollados sea comprendido y aprovechado al máximo por todos los involucrados.
+    p.mb-0 La comunicación y documentación de resultados son componentes esenciales en cualquier proyecto de inteligencia artificial y #[em machine learning]. A través del #[em storytelling], podemos conectar los hallazgos técnicos con narrativas que resuenen con las necesidades y objetivos de las partes interesadas. Los informes técnicos y manuales proporcionan documentación detallada y estructurada que respalda la reproducibilidad y el mantenimiento del trabajo realizado. Finalmente, la socialización efectiva de los resultados asegura que el valor generado por los modelos desarrollados sea comprendido y aprovechado al máximo por todos los involucrados.
 </template>
 
 <script>

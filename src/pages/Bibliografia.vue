@@ -23,73 +23,72 @@ export default {
     referencias: [
       {
         referencia:
-          'AI Planet. (n.d.). Evaluación de Modelos de Aprendizaje No Supervisado.',
+          'AI Planet. (n.d.). <em>Evaluación de Modelos de Aprendizaje No Supervisado.</em>',
         link:
           'https://aiplanet.com/learn/machine-learning-es/analisis-y-ciencia-de-datos/clustering/1624/evaluacion-de-modelos-de-aprendizaje-no-supervisado',
       },
       {
-        referencia: 'AWS. (n.d.). ¿Qué es el machine learning?',
+        referencia: 'AWS. (n.d.). <em>¿Qué es el machine learning</em>?',
         link: 'https://aws.amazon.com/es/what-is/machine-learning/',
       },
       {
         referencia:
-          'Barbara, J. (2023). Practical C++ Backend Programming: Crafting Databases, APIs, and Web Servers for High-Performance Backend. GitforGiu.',
+          'Barbara, J. (2023). <em>Practical C++ Backend Programming: Crafting Databases, APIs, and Web Servers for High-Performance Backend.</em> GitforGiu.',
         link: '',
       },
       {
         referencia:
-          'Brandão, M., Iago, & da Costa, C. (2022). Fault diagnosis of rotary machines using machine learning. Eletrônica de Potência, 27(03), 1-8.',
-        link: 'http://dx.doi.org/10.18618/rep.2022.3.0113',
-      },
-      {
-        referencia:
-          'García, S., Luengo, J., & Herrera, F. (2021). Data Preprocessing in Data Mining and Machine learning: New Frameworks, Algorithms and Applications. Springer.',
+          'Brandão, M., Iago, & da Costa, C. (2022). <em>Fault diagnosis of rotary machines using machine learning. Eletrônica de Potência</em>, 27(03), 1-8.',
         link: '',
       },
       {
         referencia:
-          "Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: Concepts, tools, and techniques to build intelligent systems (3rd ed.). O'Reilly Media.",
+          'García, S., Luengo, J., & Herrera, F. (2021). <em>Data Preprocessing in Data Mining and Machine learning:</em> New Frameworks, Algorithms and Applications. Springer.',
         link: '',
       },
       {
         referencia:
-          'Knaflic, C. N. (2023). Storytelling with Data: A Data Visualization Guide for Business Professionals (3rd ed.). Wiley.',
+          "Géron, A. (2022). <em> Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: Concepts, tools, and techniques to build intelligent systems (3rd ed.)<em>. O'Reilly Media.",
         link: '',
       },
       {
         referencia:
-          'Molnar, C. (2022). Interpretable Machine learning: A Guide for Making Black Box Models Explainable (2nd ed.). Leanpub.',
+          'Knaflic, C. N. (2023). <em> Storytelling with Data: A Data Visualization Guide for Business Professionals (3rd ed.).</em> Wiley.',
+        link: '',
+      },
+      {
+        referencia:
+          'Molnar, C. (2022). <em> Interpretable Machine learning: A Guide for Making Black Box Models Explainable (2nd ed.).</em> Leanpub.',
         link: 'https://christophm.github.io/interpretable-ml-book/',
       },
       {
         referencia:
-          'Moreno-Jiménez, J. M., & Escobar Urmeneta, M. T. (2020). El proceso analítico jerárquico (AHP). Fundamentos, metodología y aplicaciones. RECTA Monográficos, 1, 21-53.',
+          'Moreno-Jiménez, J. M., & Escobar Urmeneta, M. T. (2020). <em> El proceso analítico jerárquico (AHP). Fundamentos, metodología y aplicaciones.</em> RECTA Monográficos, 1, 21-53.',
         link: '',
       },
       {
         referencia:
-          'Neill, F. (2023). Python Data Analytics: With Pandas, NumPy, and Matplotlib (3rd ed.). Apress.',
+          'Neill, F. (2023). <em> Python Data Analytics: With Pandas, NumPy, and Matplotlib </em>(3rd ed.). Apress.',
         link: '',
       },
       {
         referencia:
-          'Parra, A. (2021). Evaluación de modelos de Machine learning para Sistemas de Detección de Intrusos en Redes IoT. Universidad de los Andes.',
-        link:
-          'https://repositorio.uniandes.edu.co/bitstream/handle/1992/51983/1-s2.0-S1474034620544content',
-      },
-      {
-        referencia:
-          'Raschka, S., Patterson, J., & Nolet, C. (2022). Machine learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python. Packt Publishing.',
+          'Parra, A. (2021). <em> Evaluación de modelos de Machine learning para Sistemas de Detección de Intrusos en Redes IoT.</em> Universidad de los Andes.',
         link: '',
       },
       {
         referencia:
-          'Rudin, C., Chen, C., Chen, Z., Huang, H., Semenova, L., & Zhong, C. (2022). Interpretable machine learning: Fundamental principles and 10 grand challenges. Statistics Surveys, 16, 1-85.',
+          'Raschka, S., Patterson, J., & Nolet, C. (2022). <em> Machine learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python.</em> Packt Publishing.',
+        link: '',
+      },
+      {
+        referencia:
+          'Rudin, C., Chen, C., Chen, Z., Huang, H., Semenova, L., & Zhong, C. (2022). <em> Interpretable machine learning: Fundamental principles and 10 grand challenges.</em> Statistics Surveys, 16, 1-85.',
         link: 'https://doi.org/10.1214/21-SS133',
       },
       {
         referencia:
-          'Sarker, I. H. (2021, May 1). Machine learning: Algorithms, Real-World Applications and Research Directions. Springer Science.',
+          'Sarker, I. H. (2021, May 1). <em> Machine learning: Algorithms, Real-World Applications and Research Directions.</em> Springer Science.',
         link: 'https://doi.org/10.1007/s42979-021-00592-x',
       },
       {
@@ -104,7 +103,7 @@ export default {
       },
       {
         referencia:
-          'Vesselinov, V. V. (2019). Machine learning. Office of Scientific and Technical Information (OSTI).',
+          'Vesselinov, V. V. (2019). <em> Machine learning. Office of Scientific and Technical Information</em> (OSTI).',
         link: 'http://dx.doi.org/10.2172/1492563',
       },
     ],

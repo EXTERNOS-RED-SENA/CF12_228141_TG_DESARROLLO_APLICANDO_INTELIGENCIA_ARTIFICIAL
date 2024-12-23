@@ -8,12 +8,12 @@
       h1 Técnicas de ensamblado de modelos de inteligencia artificial
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
-        p.mb-0 Los métodos de ensamblado representan un enfoque poderoso en el campo del machine learning para mejorar el rendimiento de los modelos predictivos. Al combinar múltiples modelos base, es posible superar las limitaciones individuales y obtener predicciones más precisas y robustas. Este capítulo introduce los fundamentos de las técnicas de ensamblado, explorando cómo algoritmos como Bagging, Random forest y Boosting pueden utilizarse para reducir la variabilidad, disminuir el sesgo y manejar datos complejos. A través de esta exploración, proporcionaremos una comprensión profunda de cómo y cuándo aplicar estos métodos para optimizar modelos de inteligencia artificial en diversas aplicaciones.
+        p.mb-0 Los métodos de ensamblado representan un enfoque poderoso en el campo del #[em machine learning] para mejorar el rendimiento de los modelos predictivos. Al combinar múltiples modelos base, es posible superar las limitaciones individuales y obtener predicciones más precisas y robustas. Este capítulo introduce los fundamentos de las técnicas de ensamblado, explorando cómo algoritmos como #[em Bagging, Random forest y Boosting] pueden utilizarse para reducir la variabilidad, disminuir el sesgo y manejar datos complejos. A través de esta exploración, proporcionaremos una comprensión profunda de cómo y cuándo aplicar estos métodos para optimizar modelos de inteligencia artificial en diversas aplicaciones.
       .col-sm-12.col-lg-4.d-none.d-lg-block: img(src='@/assets/curso/temas/t2/1.png', alt='')
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1	Fundamentos de los métodos de ensamblado
-    p.mb-5 Los métodos de ensamblado, o ensemble methods, son técnicas que combinan múltiples modelos de aprendizaje automático para mejorar el rendimiento predictivo en comparación con modelos individuales. la idea central es que al combinar varios modelos, se puede reducir la variancia, el sesgo o mejorar las predicciones generales.
+    p.mb-5 Los métodos de ensamblado, o #[em ensemble methods], son técnicas que combinan múltiples modelos de aprendizaje automático para mejorar el rendimiento predictivo en comparación con modelos individuales. la idea central es que al combinar varios modelos, se puede reducir la variancia, el sesgo o mejorar las predicciones generales.
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-11
         .row.justify-content-center.align-items-center.mb-5
@@ -44,10 +44,10 @@
                   p.mb-0 #[b Promediación (#[i averaging]):] los modelos se combinan promediando sus predicciones. ejemplos incluyen #[i Bagging] y #[i Random forest].
                 li.d-flex
                   i.fas.fa-check-circle
-                  p.mb-0 #[b Boosting:] los modelos se construyen secuencialmente, y cada modelo intenta corregir los errores del anterior.
+                  p.mb-0 #[b.fst-italic Boosting:] los modelos se construyen secuencialmente, y cada modelo intenta corregir los errores del anterior.
                 li.d-flex.mb-0
                   i.fas.fa-check-circle
-                  p.mb-0 #[b Stacking:] combina predicciones de múltiples modelos a través de un modelo meta.
+                  p.mb-0 #[b.fst-italic Stacking:] combina predicciones de múltiples modelos a través de un modelo meta.
 
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t2/3.png', alt='Persona señalando gráfico ascendente')
@@ -60,7 +60,7 @@
       .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/4.png')
       .col-sm-12.col-lg-7
-        p.mb-4 El #[i Bagging] es una técnica que mejora la estabilidad y precisión de los algoritmos de machine #[i learning] al reducir la variancia y ayudar a evitar el sobreajuste. consiste en:
+        p.mb-4 El #[i Bagging] es una técnica que mejora la estabilidad y precisión de los algoritmos de machine #[i learning] al reducir la variancia y ayudar a evitar el sobreajuste consiste en:
         .bg-color-2.p-3
           ul.lista-ul--color.color-primario.mb-0
             li.d-flex.bg-color-7.p-1.px-2
@@ -153,15 +153,15 @@
         .row.justify-content-center.mb-5
           .col-sm-12.col-lg-5.d-none.d-lg-block.mb-lg-0.mb-3: img(src='@/assets/curso/temas/t2/10.png', alt='')
           .col-sm-12.col-lg-7
-            h4.mb-4 #[i Xgboost] (#[i extreme gradient Boosting]):
-            p.mb-3 #[b Mejoras sobre gradient Boosting:] optimización de velocidad y rendimiento mediante técnicas como paralelización, regularización y manejo eficiente de memoria.
+            h4.mb-4 #[i XGBoost] (#[i extreme gradient Boosting]):
+            p.mb-3 #[b Mejoras sobre #[em gradient Boosting]:] optimización de velocidad y rendimiento mediante técnicas como paralelización, regularización y manejo eficiente de memoria.
             p.mb-0 #[b Uso común:] muy popular en competiciones de machine #[i learning] por su alta precisión y eficiencia.
 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-12.col-lg-7
         .tarjeta.bg-color-5.p-3.mb-3
-          p.mb-3.fw-bold Ventajas del Boosting:
+          p.mb-3.fw-bold Ventajas del #[em Boosting:]
           ul.lista-ul--color.color-primario.mb-0
             li.d-flex
               i.fas.fa-check-circle
@@ -174,7 +174,7 @@
             li.d-flex
               i.fas.fa-check-circle
               p.mb-0 Manejo de datos desbalanceados: al enfocarse en observaciones difíciles, puede mejorar la predicción de clases minoritarias.
-        p.mb-3 Consideraciones al usar Boosting:
+        p.mb-3.fw-bold Consideraciones al usar #[em Boosting:]
         ul.lista-ul--color.color-primario.mb-0
           li.d-flex
             i.fas.fa-check-circle
@@ -198,13 +198,13 @@
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b k-fold cross-validation:] se divide el conjunto de datos en k pliegues y se realiza entrenamiento y validación k veces, cambiando el pliegue de validación cada vez.
+                p.mb-0 #[b.fst-italic k-fold cross-validation:] se divide el conjunto de datos en k pliegues y se realiza entrenamiento y validación k veces, cambiando el pliegue de validación cada vez.
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b stratified k-fold:] similar al anterior, pero mantiene la proporción de clases en cada pliegue, útil en problemas de clasificación desbalanceados.
+                p.mb-0 #[b.fst-italic stratified k-fold:] similar al anterior, pero mantiene la proporción de clases en cada pliegue, útil en problemas de clasificación desbalanceados.
 
           div(titulo="Importancia de variables")
-            p.mb-3 Los métodos de ensamblado como random forest permiten evaluar la importancia de las variables, lo cual es útil para:
+            p.mb-3 Los métodos de ensamblado como #[em random forest] permiten evaluar la importancia de las variables, lo cual es útil para:
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
                 i.fas.fa-check-circle
@@ -218,7 +218,7 @@
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b #[i Out-of-bag error (oob error):]] en #[i Bagging] y #[i Random forest] es una estimación del error de generalización calculado utilizando las muestras no incluidas en cada bootstrap.
+                p.mb-0 #[b #[i Out-of-bag error (oob error):]] en #[i Bagging] y #[i Random forest] es una estimación del error de generalización calculado utilizando las muestras no incluidas en cada #[em bootstrap].
               li.d-flex
                 i.fas.fa-check-circle
                 p.mb-0 #[b Curvas de aprendizaje:] gráficas que muestran cómo cambia el rendimiento del modelo con respecto al número de árboles o iteraciones, útil para determinar cuándo se alcanza un rendimiento óptimo.
@@ -278,7 +278,7 @@
           ul.lista-ul--color.color-primario.mb-0
             li.d-flex.bg-color-7.p-1.px-2
               i.fas.fa-check-circle
-              p.mb-0 #[b Detección de fraude:] Boosting es utilizado para mejorar la detección de transacciones fraudulentas.
+              p.mb-0 #[b Detección de fraude:] #[em Boosting] es utilizado para mejorar la detección de transacciones fraudulentas.
             li.d-flex.bg-color-7.p-1.px-2
               i.fas.fa-check-circle
               p.mb-0 #[b Predicción en medicina:] #[i random forest] ha sido aplicado en la predicción de enfermedades debido a su capacidad para manejar datos complejos y variables.
@@ -287,7 +287,7 @@
               p.mb-0 #[b Sistemas de recomendación:] los ensamblados pueden mejorar la precisión de recomendaciones al combinar diferentes modelos.
       .col-sm-12.col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/t2/13.png')
     .titulo-tres: h3.mb-0 Conclusiones
-    p.mb-0 Los métodos de ensamblado son herramientas poderosas en el arsenal de machine learning que permiten mejorar la precisión y robustez de los modelos. al combinar múltiples modelos, es posible superar las limitaciones de modelos individuales y obtener mejores resultados en una amplia gama de aplicaciones. sin embargo, es importante comprender las diferencias entre las distintas técnicas de ensamblado y saber cuándo aplicarlas adecuadamente. En el próximo capítulo, profundizaremos en las métricas avanzadas de evaluación y en cómo ajustar los modelos para optimizar su rendimiento.
+    p.mb-0 Los métodos de ensamblado son herramientas poderosas en el arsenal de#[em machine learning] que permiten mejorar la precisión y robustez de los modelos, al combinar múltiples modelos, es posible superar las limitaciones de modelos individuales y obtener mejores resultados en una amplia gama de aplicaciones, sin embargo, es importante comprender las diferencias entre las distintas técnicas de ensamblado y saber cuándo aplicarlas adecuadamente. En el próximo capítulo, profundizaremos en las métricas avanzadas de evaluación y en cómo ajustar los modelos para optimizar su rendimiento
 
 </template>
 

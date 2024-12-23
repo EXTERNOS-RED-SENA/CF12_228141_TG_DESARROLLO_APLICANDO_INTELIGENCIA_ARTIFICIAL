@@ -15,7 +15,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Introducción a la evaluación de modelos de machine learning',
+        titulo:
+          'Introducción a la evaluación de modelos de <em>machine learning</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -181,9 +182,10 @@ export default {
     ],
   },
   global: {
-    Name: 'Métricas de evaluación para machine learning: precisión y robustez',
+    Name:
+      'Métricas de evaluación para <em>machine learning</em>: precisión y robustez',
     Description:
-      'Este componente ofrece una guía práctica sobre las métricas de evaluación en machine learning, enfocándose en la precisión y robustez de los modelos. Cubre desde conceptos fundamentales y técnicas de ensamblado como Bagging y Boosting, hasta métricas avanzadas y estrategias de ajuste, incluyendo comunicación efectiva de resultados para garantizar modelos confiables y aplicables.',
+      'Este componente ofrece una guía práctica sobre las métricas de evaluación en <em>machine learning</em>, enfocándose en la precisión y robustez de los modelos. Cubre desde conceptos fundamentales y técnicas de ensamblado como <em>Bagging</em> y <em>Boosting</em>, hasta métricas avanzadas y estrategias de ajuste, incluyendo comunicación efectiva de resultados para garantizar modelos confiables y aplicables.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

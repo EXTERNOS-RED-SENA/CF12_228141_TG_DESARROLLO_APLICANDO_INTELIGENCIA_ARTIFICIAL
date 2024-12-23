@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Introducción a la evaluación de modelos de machine learning
-    p.p-4.mb-5.bg-color-1 Este capítulo proporciona una base para comprender la importancia y los conceptos clave de las métricas de evaluación en machine learning. Se explora cómo la precisión y la robustez son pilares fundamentales en la evaluación de modelos y se discuten los desafíos comunes que pueden surgir durante este proceso. Al abordar estos desafíos con estrategias y soluciones adecuadas, podemos garantizar que nuestros modelos sean más precisos, confiables y aplicables en situaciones del mundo real.
+      h1 Introducción a la evaluación de modelos de #[em machine learning]
+    p.p-4.mb-5.bg-color-1 Este capítulo proporciona una base para comprender la importancia y los conceptos clave de las métricas de evaluación en #[em machine learning]. Se explora cómo la precisión y la robustez son pilares fundamentales en la evaluación de modelos y se discuten los desafíos comunes que pueden surgir durante este proceso. Al abordar estos desafíos con estrategias y soluciones adecuadas, podemos garantizar que nuestros modelos sean más precisos, confiables y aplicables en situaciones del mundo real.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1	La importancia de las métricas de evaluación
@@ -14,7 +14,7 @@
       .col-sm-12.col-lg-4.d-none.d-lg-block.mb-lg-0.mb-3: img(src='@/assets/curso/temas/t1/1.png', alt='')
       .col-sm-12.col-lg-8
         .p-4.bg-color-2.mb-3
-          p.mb-0 En el mundo del machine learning, construir modelos capaces de realizar predicciones es solo una parte del proceso. Es esencial evaluar su rendimiento de manera objetiva y sistemática para garantizar que cumplan con los objetivos planteados y sean útiles en aplicaciones prácticas. Las métricas de evaluación son herramientas fundamentales que nos permiten cuantificar el desempeño de un modelo, identificar áreas de mejora y compararlo con otros modelos o enfoques.
+          p.mb-0 En el mundo del #[em machine learning], construir modelos capaces de realizar predicciones es solo una parte del proceso. Es esencial evaluar su rendimiento de manera objetiva y sistemática para garantizar que cumplan con los objetivos planteados y sean útiles en aplicaciones prácticas. Las métricas de evaluación son herramientas fundamentales que nos permiten cuantificar el desempeño de un modelo, identificar áreas de mejora y compararlo con otros modelos o enfoques.
         p.mb-0 Sin una evaluación adecuada, es imposible determinar si un modelo es realmente efectivo o si simplemente parece funcionar bien debido a coincidencias en los datos de entrenamiento. Además, las métricas de evaluación facilitan la comunicación de resultados a equipos multidisciplinarios, permitiendo que todos comprendan el valor y las limitaciones del modelo desarrollado.
 
     
@@ -48,10 +48,10 @@
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b Precisión: ] Se refiere a la exactitud con la que el modelo realiza predicciones correctas. Un modelo preciso tiene un alto porcentaje de aciertos, lo que indica un buen desempeño en términos de exactitud. Sin embargo, la precisión por sí sola puede ser engañosa en conjuntos de datos desbalanceados.
+                p.mb-0 #[b Precisión: ] se refiere a la exactitud con la que el modelo realiza predicciones correctas. Un modelo preciso tiene un alto porcentaje de aciertos, lo que indica un buen desempeño en términos de exactitud. Sin embargo, la precisión por sí sola puede ser engañosa en conjuntos de datos desbalanceados.
               li.d-flex.mb-0
                 i.fas.fa-check-circle
-                p.mb-0 #[b Robustez:] Indica la capacidad del modelo para mantener un rendimiento consistente ante variaciones en los datos de entrada, como ruido, valores atípicos o cambios en la distribución de los datos (concept drift). Un modelo robusto es resistente a perturbaciones y generaliza bien a datos no vistos, lo cual es fundamental para aplicaciones en entornos dinámicos.
+                p.mb-0 #[b Robustez:] indica la capacidad del modelo para mantener un rendimiento consistente ante variaciones en los datos de entrada, como ruido, valores atípicos o cambios en la distribución de los datos (#[em concept drift]). Un modelo robusto es resistente a perturbaciones y generaliza bien a datos no vistos, lo cual es fundamental para aplicaciones en entornos dinámicos.
 
 
     .p-5.bg-color-4.mb-5
@@ -64,7 +64,7 @@
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3	Visión general de las métricas comunes
-    p.mb-5 Existen diversas métricas para evaluar modelos de Machine learning, cada una adecuada para diferentes tipos de problemas y contextos. A continuación, se presenta una visión general de las métricas más utilizadas:
+    p.mb-5 Existen diversas métricas para evaluar modelos de #[em Machine learning], cada una adecuada para diferentes tipos de problemas y contextos. A continuación, se presenta una visión general de las métricas más utilizadas:
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -105,10 +105,10 @@
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b Clasificación: ] En la detección de spam, podríamos usar la precisión para saber qué porcentaje de correos electrónicos fueron clasificados correctamente. Sin embargo, también es importante considerar la #[b precisión (#[i Precision]) y el #[i Recall] ] para entender cuántos correos legítimos fueron marcados incorrectamente como spam y cuántos correos spam fueron pasados por alto.
+                p.mb-0 #[b Clasificación: ] en la detección de spam, podríamos usar la precisión para saber qué porcentaje de correos electrónicos fueron clasificados correctamente. Sin embargo, también es importante considerar la #[b precisión (#[i Precision]) y el #[i Recall] ] para entender cuántos correos legítimos fueron marcados incorrectamente como spam y cuántos correos spam fueron pasados por alto.
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b Regresión: ] Al predecir los precios de viviendas, métricas como el #[b RMSE] proporcionan una idea de cuánto, en promedio, se desvían las predicciones del modelo respecto a los valores reales, lo que es muy importante para entender la fiabilidad de las estimaciones.
+                p.mb-0 #[b Regresión: ] al predecir los precios de viviendas, métricas como el #[b RMSE] proporcionan una idea de cuánto, en promedio, se desvían las predicciones del modelo respecto a los valores reales, lo que es muy importante para entender la fiabilidad de las estimaciones.
     
     
     
@@ -117,12 +117,12 @@
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4	Desafíos en la evaluación de modelos
-    p.mb-5 La evaluación de modelos de machine learning presenta varios desafíos que deben ser abordados para asegurar resultados confiables y útiles.
+    p.mb-5 La evaluación de modelos de #[em machine learning] presenta varios desafíos que deben ser abordados para asegurar resultados confiables y útiles.
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Datos desbalanceados")
-            p.mb-3 Cuando una clase predomina significativamente sobre otras, algunas métricas pueden ser engañosas. Por ejemplo, en un problema de detección de fraude donde solo el 1% de las transacciones son fraudulentas, un modelo que siempre predice "no fraude" tendría una precisión del 99%, pero sería inútil para detectar fraudes reales.
+            p.mb-3 Cuando una clase predomina significativamente sobre otras, algunas métricas pueden ser engañosas. Por ejemplo, en un problema de detección de fraude donde solo el 1 % de las transacciones son fraudulentas, un modelo que siempre predice "no fraude" tendría una precisión del 99 %, pero sería inútil para detectar fraudes reales.
             p.mb-3 #[b Soluciones:]
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
@@ -135,8 +135,8 @@
                 i.fas.fa-check-circle
                 p.mb-0  Emplear algoritmos diseñados para manejar desequilibrios de clases: como #[b #[i Balanced Random forest o Adaptive Boosting]].
           div(titulo="Sobreajuste y Subajuste")
-            p.mb-2 #[b Sobreajuste (Overfitting):] ocurre cuando el modelo se ajusta demasiado a los datos de entrenamiento, capturando ruido y patrones irrelevantes. Esto conduce a un pobre rendimiento en datos nuevos.
-            p.mb-4 #[b Subajuste (Underfitting):] Sucede cuando el modelo es demasiado simple para capturar la estructura subyacente de los datos, resultando en un rendimiento deficiente tanto en el conjunto de entrenamiento como en nuevos datos.
+            p.mb-2 #[b Sobreajuste (#[em Overfitting]):] ocurre cuando el modelo se ajusta demasiado a los datos de entrenamiento, capturando ruido y patrones irrelevantes. Esto conduce a un pobre rendimiento en datos nuevos.
+            p.mb-4 #[b Subajuste (#[em Underfitting]):] Sucede cuando el modelo es demasiado simple para capturar la estructura subyacente de los datos, resultando en un rendimiento deficiente tanto en el conjunto de entrenamiento como en nuevos datos.
             p.mb-3 #[b Soluciones:]
             ul.lista-ul--color.color-primario.mb-0
               li.d-flex
@@ -144,7 +144,7 @@
                 p.mb-0 #[b Validación cruzada:] dividir el conjunto de datos en múltiples subconjuntos para validar el rendimiento del modelo de manera más robusta.
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 #[b Regularización:] aplicar técnicas como Lasso o Ridge para penalizar la complejidad del modelo.
+                p.mb-0 #[b Regularización:] aplicar técnicas como #[em Lasso] o #[em Ridge] para penalizar la complejidad del modelo.
               li.d-flex
                 i.fas.fa-check-circle
                 p.mb-0 #[b Ajuste de hiperparámetros:] optimizar parámetros clave del modelo para encontrar el equilibrio adecuado entre sesgo y varianza.
@@ -207,7 +207,7 @@
       .col-lg-2.d-none.d-lg-block: img(src='@/assets/curso/temas/t1/7.png', alt='')
       .col-sm-12.col-lg-10
         p.mb-0 Enfrentar estos desafíos requiere un enfoque crítico y cuidadoso en la selección y aplicación de las métricas de evaluación. Es esencial comprender no solo qué miden las métricas, sino también cómo interpretarlas en el contexto específico del problema que se está abordando.
-        p.mb-0 En los siguientes capítulos, profundizaremos en técnicas avanzadas y metodologías específicas para validar y mejorar modelos, incluyendo el uso de técnicas de ensamblado y la comunicación efectiva de resultados a través de informes y storytelling.
+        p.mb-0 En los siguientes capítulos, profundizaremos en técnicas avanzadas y metodologías específicas para validar y mejorar modelos, incluyendo el uso de técnicas de ensamblado y la comunicación efectiva de resultados a través de informes y #[em storytelling.]
 </template>
 
 <script>

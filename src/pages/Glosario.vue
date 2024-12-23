@@ -62,7 +62,7 @@ export default {
             'Conjuntos de datos donde las clases no están representadas de manera equitativa, lo que puede conducir a modelos que ignoran las clases minoritarias.',
         },
         {
-          termino: 'F1-Score',
+          termino: 'F1-<em>Score</em>',
           significado:
             'Medida que combina la precisión y el recall en una sola métrica armonizada, proporcionando una evaluación equilibrada del rendimiento del modelo.',
         },
